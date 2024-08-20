@@ -1,0 +1,3 @@
+/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles/Project.elf.dir
+/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles/edit_cache.dir
+/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles/rebuild_cache.dir
