@@ -1,6 +1,11 @@
 [
 {
   "directory": "/home/huispec/STM32_CMake/008-ADC模数转换器/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I/home/huispec/STM32_CMake/008-ADC模数转换器/./Lib/Inc -I/home/huispec/STM32_CMake/008-ADC模数转换器/./User -I/home/huispec/STM32_CMake/008-ADC模数转换器/./Start/Inc -I/home/huispec/STM32_CMake/008-ADC模数转换器/./System/Inc -I/home/huispec/STM32_CMake/008-ADC模数转换器/./Code/Inc -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11 -o CMakeFiles/Project.elf.dir/Code/Src/AD.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Code/Src/AD.c",
+  "file": "/home/huispec/STM32_CMake/008-ADC模数转换器/Code/Src/AD.c"
+},
+{
+  "directory": "/home/huispec/STM32_CMake/008-ADC模数转换器/build",
   "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I/home/huispec/STM32_CMake/008-ADC模数转换器/./Lib/Inc -I/home/huispec/STM32_CMake/008-ADC模数转换器/./User -I/home/huispec/STM32_CMake/008-ADC模数转换器/./Start/Inc -I/home/huispec/STM32_CMake/008-ADC模数转换器/./System/Inc -I/home/huispec/STM32_CMake/008-ADC模数转换器/./Code/Inc -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11 -o CMakeFiles/Project.elf.dir/Code/Src/Encoder.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Code/Src/Encoder.c",
   "file": "/home/huispec/STM32_CMake/008-ADC模数转换器/Code/Src/Encoder.c"
 },

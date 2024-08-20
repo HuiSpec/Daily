@@ -7,11 +7,11 @@ ASM_DEFINES = -DDEBUG -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER
 
 ASM_INCLUDES = -I/home/huispec/STM32_CMake/008-ADC模数转换器/./Lib/Inc -I/home/huispec/STM32_CMake/008-ADC模数转换器/./User -I/home/huispec/STM32_CMake/008-ADC模数转换器/./Start/Inc -I/home/huispec/STM32_CMake/008-ADC模数转换器/./System/Inc -I/home/huispec/STM32_CMake/008-ADC模数转换器/./Code/Inc
 
-ASM_FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
+ASM_FLAGS = -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
 
 C_DEFINES = -DDEBUG -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER
 
 C_INCLUDES = -I/home/huispec/STM32_CMake/008-ADC模数转换器/./Lib/Inc -I/home/huispec/STM32_CMake/008-ADC模数转换器/./User -I/home/huispec/STM32_CMake/008-ADC模数转换器/./Start/Inc -I/home/huispec/STM32_CMake/008-ADC模数转换器/./System/Inc -I/home/huispec/STM32_CMake/008-ADC模数转换器/./Code/Inc
 
-C_FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
+C_FLAGS = -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
 

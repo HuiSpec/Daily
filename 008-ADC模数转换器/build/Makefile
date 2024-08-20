@@ -129,6 +129,30 @@ Project.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.elf.dir/build.make CMakeFiles/Project.elf.dir/build
 .PHONY : Project.elf/fast
 
+Code/Src/AD.obj: Code/Src/AD.c.obj
+.PHONY : Code/Src/AD.obj
+
+# target to build an object file
+Code/Src/AD.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.elf.dir/build.make CMakeFiles/Project.elf.dir/Code/Src/AD.c.obj
+.PHONY : Code/Src/AD.c.obj
+
+Code/Src/AD.i: Code/Src/AD.c.i
+.PHONY : Code/Src/AD.i
+
+# target to preprocess a source file
+Code/Src/AD.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.elf.dir/build.make CMakeFiles/Project.elf.dir/Code/Src/AD.c.i
+.PHONY : Code/Src/AD.c.i
+
+Code/Src/AD.s: Code/Src/AD.c.s
+.PHONY : Code/Src/AD.s
+
+# target to generate assembly for a file
+Code/Src/AD.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.elf.dir/build.make CMakeFiles/Project.elf.dir/Code/Src/AD.c.s
+.PHONY : Code/Src/AD.c.s
+
 Code/Src/Encoder.obj: Code/Src/Encoder.c.obj
 .PHONY : Code/Src/Encoder.obj
 
@@ -1082,6 +1106,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Project.elf"
+	@echo "... Code/Src/AD.obj"
+	@echo "... Code/Src/AD.i"
+	@echo "... Code/Src/AD.s"
 	@echo "... Code/Src/Encoder.obj"
 	@echo "... Code/Src/Encoder.i"
 	@echo "... Code/Src/Encoder.s"

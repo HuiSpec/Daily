@@ -30,6 +30,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/huispec/STM32_CMake/008-ADC模数转换器/Code/Src/AD.c" "CMakeFiles/Project.elf.dir/Code/Src/AD.c.obj" "gcc" "CMakeFiles/Project.elf.dir/Code/Src/AD.c.obj.d"
   "/home/huispec/STM32_CMake/008-ADC模数转换器/Code/Src/Encoder.c" "CMakeFiles/Project.elf.dir/Code/Src/Encoder.c.obj" "gcc" "CMakeFiles/Project.elf.dir/Code/Src/Encoder.c.obj.d"
   "/home/huispec/STM32_CMake/008-ADC模数转换器/Code/Src/I2COLED.c" "CMakeFiles/Project.elf.dir/Code/Src/I2COLED.c.obj" "gcc" "CMakeFiles/Project.elf.dir/Code/Src/I2COLED.c.obj.d"
   "/home/huispec/STM32_CMake/008-ADC模数转换器/Code/Src/IC.c" "CMakeFiles/Project.elf.dir/Code/Src/IC.c.obj" "gcc" "CMakeFiles/Project.elf.dir/Code/Src/IC.c.obj.d"

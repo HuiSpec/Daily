@@ -69,10 +69,24 @@ include CMakeFiles/Project.elf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Project.elf.dir/flags.make
 
+CMakeFiles/Project.elf.dir/Code/Src/AD.c.obj: CMakeFiles/Project.elf.dir/flags.make
+CMakeFiles/Project.elf.dir/Code/Src/AD.c.obj: ../Code/Src/AD.c
+CMakeFiles/Project.elf.dir/Code/Src/AD.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Project.elf.dir/Code/Src/AD.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Code/Src/AD.c.obj -MF CMakeFiles/Project.elf.dir/Code/Src/AD.c.obj.d -o CMakeFiles/Project.elf.dir/Code/Src/AD.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Code/Src/AD.c
+
+CMakeFiles/Project.elf.dir/Code/Src/AD.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Project.elf.dir/Code/Src/AD.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/huispec/STM32_CMake/008-ADC模数转换器/Code/Src/AD.c > CMakeFiles/Project.elf.dir/Code/Src/AD.c.i
+
+CMakeFiles/Project.elf.dir/Code/Src/AD.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Project.elf.dir/Code/Src/AD.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/huispec/STM32_CMake/008-ADC模数转换器/Code/Src/AD.c -o CMakeFiles/Project.elf.dir/Code/Src/AD.c.s
+
 CMakeFiles/Project.elf.dir/Code/Src/Encoder.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Code/Src/Encoder.c.obj: ../Code/Src/Encoder.c
 CMakeFiles/Project.elf.dir/Code/Src/Encoder.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Project.elf.dir/Code/Src/Encoder.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Project.elf.dir/Code/Src/Encoder.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Code/Src/Encoder.c.obj -MF CMakeFiles/Project.elf.dir/Code/Src/Encoder.c.obj.d -o CMakeFiles/Project.elf.dir/Code/Src/Encoder.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Code/Src/Encoder.c
 
 CMakeFiles/Project.elf.dir/Code/Src/Encoder.c.i: cmake_force
@@ -86,7 +100,7 @@ CMakeFiles/Project.elf.dir/Code/Src/Encoder.c.s: cmake_force
 CMakeFiles/Project.elf.dir/Code/Src/I2COLED.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Code/Src/I2COLED.c.obj: ../Code/Src/I2COLED.c
 CMakeFiles/Project.elf.dir/Code/Src/I2COLED.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Project.elf.dir/Code/Src/I2COLED.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Project.elf.dir/Code/Src/I2COLED.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Code/Src/I2COLED.c.obj -MF CMakeFiles/Project.elf.dir/Code/Src/I2COLED.c.obj.d -o CMakeFiles/Project.elf.dir/Code/Src/I2COLED.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Code/Src/I2COLED.c
 
 CMakeFiles/Project.elf.dir/Code/Src/I2COLED.c.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/Project.elf.dir/Code/Src/I2COLED.c.s: cmake_force
 CMakeFiles/Project.elf.dir/Code/Src/IC.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Code/Src/IC.c.obj: ../Code/Src/IC.c
 CMakeFiles/Project.elf.dir/Code/Src/IC.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Project.elf.dir/Code/Src/IC.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Project.elf.dir/Code/Src/IC.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Code/Src/IC.c.obj -MF CMakeFiles/Project.elf.dir/Code/Src/IC.c.obj.d -o CMakeFiles/Project.elf.dir/Code/Src/IC.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Code/Src/IC.c
 
 CMakeFiles/Project.elf.dir/Code/Src/IC.c.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/Project.elf.dir/Code/Src/IC.c.s: cmake_force
 CMakeFiles/Project.elf.dir/Code/Src/Key.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Code/Src/Key.c.obj: ../Code/Src/Key.c
 CMakeFiles/Project.elf.dir/Code/Src/Key.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Project.elf.dir/Code/Src/Key.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Project.elf.dir/Code/Src/Key.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Code/Src/Key.c.obj -MF CMakeFiles/Project.elf.dir/Code/Src/Key.c.obj.d -o CMakeFiles/Project.elf.dir/Code/Src/Key.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Code/Src/Key.c
 
 CMakeFiles/Project.elf.dir/Code/Src/Key.c.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/Project.elf.dir/Code/Src/Key.c.s: cmake_force
 CMakeFiles/Project.elf.dir/Code/Src/LED.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Code/Src/LED.c.obj: ../Code/Src/LED.c
 CMakeFiles/Project.elf.dir/Code/Src/LED.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Project.elf.dir/Code/Src/LED.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Project.elf.dir/Code/Src/LED.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Code/Src/LED.c.obj -MF CMakeFiles/Project.elf.dir/Code/Src/LED.c.obj.d -o CMakeFiles/Project.elf.dir/Code/Src/LED.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Code/Src/LED.c
 
 CMakeFiles/Project.elf.dir/Code/Src/LED.c.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/Project.elf.dir/Code/Src/LED.c.s: cmake_force
 CMakeFiles/Project.elf.dir/Code/Src/Motor.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Code/Src/Motor.c.obj: ../Code/Src/Motor.c
 CMakeFiles/Project.elf.dir/Code/Src/Motor.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Project.elf.dir/Code/Src/Motor.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Project.elf.dir/Code/Src/Motor.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Code/Src/Motor.c.obj -MF CMakeFiles/Project.elf.dir/Code/Src/Motor.c.obj.d -o CMakeFiles/Project.elf.dir/Code/Src/Motor.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Code/Src/Motor.c
 
 CMakeFiles/Project.elf.dir/Code/Src/Motor.c.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/Project.elf.dir/Code/Src/Motor.c.s: cmake_force
 CMakeFiles/Project.elf.dir/Code/Src/OLED.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Code/Src/OLED.c.obj: ../Code/Src/OLED.c
 CMakeFiles/Project.elf.dir/Code/Src/OLED.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Project.elf.dir/Code/Src/OLED.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Project.elf.dir/Code/Src/OLED.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Code/Src/OLED.c.obj -MF CMakeFiles/Project.elf.dir/Code/Src/OLED.c.obj.d -o CMakeFiles/Project.elf.dir/Code/Src/OLED.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Code/Src/OLED.c
 
 CMakeFiles/Project.elf.dir/Code/Src/OLED.c.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/Project.elf.dir/Code/Src/OLED.c.s: cmake_force
 CMakeFiles/Project.elf.dir/Code/Src/PWH.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Code/Src/PWH.c.obj: ../Code/Src/PWH.c
 CMakeFiles/Project.elf.dir/Code/Src/PWH.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Project.elf.dir/Code/Src/PWH.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Project.elf.dir/Code/Src/PWH.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Code/Src/PWH.c.obj -MF CMakeFiles/Project.elf.dir/Code/Src/PWH.c.obj.d -o CMakeFiles/Project.elf.dir/Code/Src/PWH.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Code/Src/PWH.c
 
 CMakeFiles/Project.elf.dir/Code/Src/PWH.c.i: cmake_force
@@ -184,7 +198,7 @@ CMakeFiles/Project.elf.dir/Code/Src/PWH.c.s: cmake_force
 CMakeFiles/Project.elf.dir/Code/Src/Runcoder.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Code/Src/Runcoder.c.obj: ../Code/Src/Runcoder.c
 CMakeFiles/Project.elf.dir/Code/Src/Runcoder.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Project.elf.dir/Code/Src/Runcoder.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Project.elf.dir/Code/Src/Runcoder.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Code/Src/Runcoder.c.obj -MF CMakeFiles/Project.elf.dir/Code/Src/Runcoder.c.obj.d -o CMakeFiles/Project.elf.dir/Code/Src/Runcoder.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Code/Src/Runcoder.c
 
 CMakeFiles/Project.elf.dir/Code/Src/Runcoder.c.i: cmake_force
@@ -198,7 +212,7 @@ CMakeFiles/Project.elf.dir/Code/Src/Runcoder.c.s: cmake_force
 CMakeFiles/Project.elf.dir/Code/Src/Servo.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Code/Src/Servo.c.obj: ../Code/Src/Servo.c
 CMakeFiles/Project.elf.dir/Code/Src/Servo.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Project.elf.dir/Code/Src/Servo.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Project.elf.dir/Code/Src/Servo.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Code/Src/Servo.c.obj -MF CMakeFiles/Project.elf.dir/Code/Src/Servo.c.obj.d -o CMakeFiles/Project.elf.dir/Code/Src/Servo.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Code/Src/Servo.c
 
 CMakeFiles/Project.elf.dir/Code/Src/Servo.c.i: cmake_force
@@ -212,7 +226,7 @@ CMakeFiles/Project.elf.dir/Code/Src/Servo.c.s: cmake_force
 CMakeFiles/Project.elf.dir/Code/Src/Timer.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Code/Src/Timer.c.obj: ../Code/Src/Timer.c
 CMakeFiles/Project.elf.dir/Code/Src/Timer.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Project.elf.dir/Code/Src/Timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Project.elf.dir/Code/Src/Timer.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Code/Src/Timer.c.obj -MF CMakeFiles/Project.elf.dir/Code/Src/Timer.c.obj.d -o CMakeFiles/Project.elf.dir/Code/Src/Timer.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Code/Src/Timer.c
 
 CMakeFiles/Project.elf.dir/Code/Src/Timer.c.i: cmake_force
@@ -226,7 +240,7 @@ CMakeFiles/Project.elf.dir/Code/Src/Timer.c.s: cmake_force
 CMakeFiles/Project.elf.dir/Lib/Src/misc.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Lib/Src/misc.c.obj: ../Lib/Src/misc.c
 CMakeFiles/Project.elf.dir/Lib/Src/misc.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/misc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/misc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Lib/Src/misc.c.obj -MF CMakeFiles/Project.elf.dir/Lib/Src/misc.c.obj.d -o CMakeFiles/Project.elf.dir/Lib/Src/misc.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Lib/Src/misc.c
 
 CMakeFiles/Project.elf.dir/Lib/Src/misc.c.i: cmake_force
@@ -240,7 +254,7 @@ CMakeFiles/Project.elf.dir/Lib/Src/misc.c.s: cmake_force
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_adc.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_adc.c.obj: ../Lib/Src/stm32f10x_adc.c
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_adc.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_adc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_adc.c.obj -MF CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_adc.c.obj.d -o CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_adc.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Lib/Src/stm32f10x_adc.c
 
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_adc.c.i: cmake_force
@@ -254,7 +268,7 @@ CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_adc.c.s: cmake_force
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_bkp.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_bkp.c.obj: ../Lib/Src/stm32f10x_bkp.c
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_bkp.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_bkp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_bkp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_bkp.c.obj -MF CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_bkp.c.obj.d -o CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_bkp.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Lib/Src/stm32f10x_bkp.c
 
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_bkp.c.i: cmake_force
@@ -268,7 +282,7 @@ CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_bkp.c.s: cmake_force
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_can.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_can.c.obj: ../Lib/Src/stm32f10x_can.c
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_can.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_can.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_can.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_can.c.obj -MF CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_can.c.obj.d -o CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_can.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Lib/Src/stm32f10x_can.c
 
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_can.c.i: cmake_force
@@ -282,7 +296,7 @@ CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_can.c.s: cmake_force
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_cec.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_cec.c.obj: ../Lib/Src/stm32f10x_cec.c
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_cec.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_cec.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_cec.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_cec.c.obj -MF CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_cec.c.obj.d -o CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_cec.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Lib/Src/stm32f10x_cec.c
 
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_cec.c.i: cmake_force
@@ -296,7 +310,7 @@ CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_cec.c.s: cmake_force
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_crc.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_crc.c.obj: ../Lib/Src/stm32f10x_crc.c
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_crc.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_crc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_crc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_crc.c.obj -MF CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_crc.c.obj.d -o CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_crc.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Lib/Src/stm32f10x_crc.c
 
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_crc.c.i: cmake_force
@@ -310,7 +324,7 @@ CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_crc.c.s: cmake_force
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_dac.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_dac.c.obj: ../Lib/Src/stm32f10x_dac.c
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_dac.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_dac.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_dac.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_dac.c.obj -MF CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_dac.c.obj.d -o CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_dac.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Lib/Src/stm32f10x_dac.c
 
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_dac.c.i: cmake_force
@@ -324,7 +338,7 @@ CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_dac.c.s: cmake_force
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_dbgmcu.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_dbgmcu.c.obj: ../Lib/Src/stm32f10x_dbgmcu.c
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_dbgmcu.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_dbgmcu.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_dbgmcu.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_dbgmcu.c.obj -MF CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_dbgmcu.c.obj.d -o CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_dbgmcu.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Lib/Src/stm32f10x_dbgmcu.c
 
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_dbgmcu.c.i: cmake_force
@@ -338,7 +352,7 @@ CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_dbgmcu.c.s: cmake_force
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_dma.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_dma.c.obj: ../Lib/Src/stm32f10x_dma.c
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_dma.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_dma.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_dma.c.obj -MF CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_dma.c.obj.d -o CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_dma.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Lib/Src/stm32f10x_dma.c
 
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_dma.c.i: cmake_force
@@ -352,7 +366,7 @@ CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_dma.c.s: cmake_force
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_exti.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_exti.c.obj: ../Lib/Src/stm32f10x_exti.c
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_exti.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_exti.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_exti.c.obj -MF CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_exti.c.obj.d -o CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_exti.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Lib/Src/stm32f10x_exti.c
 
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_exti.c.i: cmake_force
@@ -366,7 +380,7 @@ CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_exti.c.s: cmake_force
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_flash.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_flash.c.obj: ../Lib/Src/stm32f10x_flash.c
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_flash.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_flash.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_flash.c.obj -MF CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_flash.c.obj.d -o CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_flash.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Lib/Src/stm32f10x_flash.c
 
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_flash.c.i: cmake_force
@@ -380,7 +394,7 @@ CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_flash.c.s: cmake_force
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_fsmc.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_fsmc.c.obj: ../Lib/Src/stm32f10x_fsmc.c
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_fsmc.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_fsmc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_fsmc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_fsmc.c.obj -MF CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_fsmc.c.obj.d -o CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_fsmc.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Lib/Src/stm32f10x_fsmc.c
 
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_fsmc.c.i: cmake_force
@@ -394,7 +408,7 @@ CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_fsmc.c.s: cmake_force
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_gpio.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_gpio.c.obj: ../Lib/Src/stm32f10x_gpio.c
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_gpio.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_gpio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_gpio.c.obj -MF CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_gpio.c.obj.d -o CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_gpio.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Lib/Src/stm32f10x_gpio.c
 
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_gpio.c.i: cmake_force
@@ -408,7 +422,7 @@ CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_gpio.c.s: cmake_force
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_i2c.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_i2c.c.obj: ../Lib/Src/stm32f10x_i2c.c
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_i2c.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_i2c.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_i2c.c.obj -MF CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_i2c.c.obj.d -o CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_i2c.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Lib/Src/stm32f10x_i2c.c
 
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_i2c.c.i: cmake_force
@@ -422,7 +436,7 @@ CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_i2c.c.s: cmake_force
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_iwdg.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_iwdg.c.obj: ../Lib/Src/stm32f10x_iwdg.c
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_iwdg.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_iwdg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_iwdg.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_iwdg.c.obj -MF CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_iwdg.c.obj.d -o CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_iwdg.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Lib/Src/stm32f10x_iwdg.c
 
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_iwdg.c.i: cmake_force
@@ -436,7 +450,7 @@ CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_iwdg.c.s: cmake_force
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_pwr.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_pwr.c.obj: ../Lib/Src/stm32f10x_pwr.c
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_pwr.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_pwr.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_pwr.c.obj -MF CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_pwr.c.obj.d -o CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_pwr.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Lib/Src/stm32f10x_pwr.c
 
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_pwr.c.i: cmake_force
@@ -450,7 +464,7 @@ CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_pwr.c.s: cmake_force
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_rcc.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_rcc.c.obj: ../Lib/Src/stm32f10x_rcc.c
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_rcc.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_rcc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_rcc.c.obj -MF CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_rcc.c.obj.d -o CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_rcc.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Lib/Src/stm32f10x_rcc.c
 
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_rcc.c.i: cmake_force
@@ -464,7 +478,7 @@ CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_rcc.c.s: cmake_force
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_rtc.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_rtc.c.obj: ../Lib/Src/stm32f10x_rtc.c
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_rtc.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_rtc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_rtc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_rtc.c.obj -MF CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_rtc.c.obj.d -o CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_rtc.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Lib/Src/stm32f10x_rtc.c
 
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_rtc.c.i: cmake_force
@@ -478,7 +492,7 @@ CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_rtc.c.s: cmake_force
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_sdio.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_sdio.c.obj: ../Lib/Src/stm32f10x_sdio.c
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_sdio.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_sdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_sdio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_sdio.c.obj -MF CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_sdio.c.obj.d -o CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_sdio.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Lib/Src/stm32f10x_sdio.c
 
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_sdio.c.i: cmake_force
@@ -492,7 +506,7 @@ CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_sdio.c.s: cmake_force
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_spi.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_spi.c.obj: ../Lib/Src/stm32f10x_spi.c
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_spi.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_spi.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_spi.c.obj -MF CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_spi.c.obj.d -o CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_spi.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Lib/Src/stm32f10x_spi.c
 
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_spi.c.i: cmake_force
@@ -506,7 +520,7 @@ CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_spi.c.s: cmake_force
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_tim.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_tim.c.obj: ../Lib/Src/stm32f10x_tim.c
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_tim.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_tim.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_tim.c.obj -MF CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_tim.c.obj.d -o CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_tim.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Lib/Src/stm32f10x_tim.c
 
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_tim.c.i: cmake_force
@@ -520,7 +534,7 @@ CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_tim.c.s: cmake_force
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_usart.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_usart.c.obj: ../Lib/Src/stm32f10x_usart.c
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_usart.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_usart.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_usart.c.obj -MF CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_usart.c.obj.d -o CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_usart.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Lib/Src/stm32f10x_usart.c
 
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_usart.c.i: cmake_force
@@ -534,7 +548,7 @@ CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_usart.c.s: cmake_force
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_wwdg.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_wwdg.c.obj: ../Lib/Src/stm32f10x_wwdg.c
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_wwdg.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_wwdg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_wwdg.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_wwdg.c.obj -MF CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_wwdg.c.obj.d -o CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_wwdg.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Lib/Src/stm32f10x_wwdg.c
 
 CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_wwdg.c.i: cmake_force
@@ -547,7 +561,7 @@ CMakeFiles/Project.elf.dir/Lib/Src/stm32f10x_wwdg.c.s: cmake_force
 
 CMakeFiles/Project.elf.dir/Project/Code-Cmake/startup_stm32f10x_md.s.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Project/Code-Cmake/startup_stm32f10x_md.s.obj: ../Project/Code-Cmake/startup_stm32f10x_md.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/Project.elf.dir/Project/Code-Cmake/startup_stm32f10x_md.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/Project.elf.dir/Project/Code-Cmake/startup_stm32f10x_md.s.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/Project.elf.dir/Project/Code-Cmake/startup_stm32f10x_md.s.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Project/Code-Cmake/startup_stm32f10x_md.s
 
 CMakeFiles/Project.elf.dir/Project/Code-Cmake/startup_stm32f10x_md.s.i: cmake_force
@@ -561,7 +575,7 @@ CMakeFiles/Project.elf.dir/Project/Code-Cmake/startup_stm32f10x_md.s.s: cmake_fo
 CMakeFiles/Project.elf.dir/Start/Src/core_cm3.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Start/Src/core_cm3.c.obj: ../Start/Src/core_cm3.c
 CMakeFiles/Project.elf.dir/Start/Src/core_cm3.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/Project.elf.dir/Start/Src/core_cm3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/Project.elf.dir/Start/Src/core_cm3.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Start/Src/core_cm3.c.obj -MF CMakeFiles/Project.elf.dir/Start/Src/core_cm3.c.obj.d -o CMakeFiles/Project.elf.dir/Start/Src/core_cm3.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Start/Src/core_cm3.c
 
 CMakeFiles/Project.elf.dir/Start/Src/core_cm3.c.i: cmake_force
@@ -575,7 +589,7 @@ CMakeFiles/Project.elf.dir/Start/Src/core_cm3.c.s: cmake_force
 CMakeFiles/Project.elf.dir/Start/Src/stm32f10x_it.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Start/Src/stm32f10x_it.c.obj: ../Start/Src/stm32f10x_it.c
 CMakeFiles/Project.elf.dir/Start/Src/stm32f10x_it.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/Project.elf.dir/Start/Src/stm32f10x_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/Project.elf.dir/Start/Src/stm32f10x_it.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Start/Src/stm32f10x_it.c.obj -MF CMakeFiles/Project.elf.dir/Start/Src/stm32f10x_it.c.obj.d -o CMakeFiles/Project.elf.dir/Start/Src/stm32f10x_it.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Start/Src/stm32f10x_it.c
 
 CMakeFiles/Project.elf.dir/Start/Src/stm32f10x_it.c.i: cmake_force
@@ -589,7 +603,7 @@ CMakeFiles/Project.elf.dir/Start/Src/stm32f10x_it.c.s: cmake_force
 CMakeFiles/Project.elf.dir/Start/Src/system_stm32f10x.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/Start/Src/system_stm32f10x.c.obj: ../Start/Src/system_stm32f10x.c
 CMakeFiles/Project.elf.dir/Start/Src/system_stm32f10x.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/Project.elf.dir/Start/Src/system_stm32f10x.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/Project.elf.dir/Start/Src/system_stm32f10x.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/Start/Src/system_stm32f10x.c.obj -MF CMakeFiles/Project.elf.dir/Start/Src/system_stm32f10x.c.obj.d -o CMakeFiles/Project.elf.dir/Start/Src/system_stm32f10x.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/Start/Src/system_stm32f10x.c
 
 CMakeFiles/Project.elf.dir/Start/Src/system_stm32f10x.c.i: cmake_force
@@ -603,7 +617,7 @@ CMakeFiles/Project.elf.dir/Start/Src/system_stm32f10x.c.s: cmake_force
 CMakeFiles/Project.elf.dir/System/Src/Delay.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/System/Src/Delay.c.obj: ../System/Src/Delay.c
 CMakeFiles/Project.elf.dir/System/Src/Delay.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/Project.elf.dir/System/Src/Delay.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/Project.elf.dir/System/Src/Delay.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/System/Src/Delay.c.obj -MF CMakeFiles/Project.elf.dir/System/Src/Delay.c.obj.d -o CMakeFiles/Project.elf.dir/System/Src/Delay.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/System/Src/Delay.c
 
 CMakeFiles/Project.elf.dir/System/Src/Delay.c.i: cmake_force
@@ -617,7 +631,7 @@ CMakeFiles/Project.elf.dir/System/Src/Delay.c.s: cmake_force
 CMakeFiles/Project.elf.dir/User/main.c.obj: CMakeFiles/Project.elf.dir/flags.make
 CMakeFiles/Project.elf.dir/User/main.c.obj: ../User/main.c
 CMakeFiles/Project.elf.dir/User/main.c.obj: CMakeFiles/Project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/Project.elf.dir/User/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/Project.elf.dir/User/main.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Project.elf.dir/User/main.c.obj -MF CMakeFiles/Project.elf.dir/User/main.c.obj.d -o CMakeFiles/Project.elf.dir/User/main.c.obj -c /home/huispec/STM32_CMake/008-ADC模数转换器/User/main.c
 
 CMakeFiles/Project.elf.dir/User/main.c.i: cmake_force
@@ -630,6 +644,7 @@ CMakeFiles/Project.elf.dir/User/main.c.s: cmake_force
 
 # Object files for target Project.elf
 Project_elf_OBJECTS = \
+"CMakeFiles/Project.elf.dir/Code/Src/AD.c.obj" \
 "CMakeFiles/Project.elf.dir/Code/Src/Encoder.c.obj" \
 "CMakeFiles/Project.elf.dir/Code/Src/I2COLED.c.obj" \
 "CMakeFiles/Project.elf.dir/Code/Src/IC.c.obj" \
@@ -674,6 +689,7 @@ Project_elf_OBJECTS = \
 # External object files for target Project.elf
 Project_elf_EXTERNAL_OBJECTS =
 
+Project.elf: CMakeFiles/Project.elf.dir/Code/Src/AD.c.obj
 Project.elf: CMakeFiles/Project.elf.dir/Code/Src/Encoder.c.obj
 Project.elf: CMakeFiles/Project.elf.dir/Code/Src/I2COLED.c.obj
 Project.elf: CMakeFiles/Project.elf.dir/Code/Src/IC.c.obj
@@ -716,7 +732,7 @@ Project.elf: CMakeFiles/Project.elf.dir/System/Src/Delay.c.obj
 Project.elf: CMakeFiles/Project.elf.dir/User/main.c.obj
 Project.elf: CMakeFiles/Project.elf.dir/build.make
 Project.elf: CMakeFiles/Project.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Linking C executable Project.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/huispec/STM32_CMake/008-ADC模数转换器/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Linking C executable Project.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Project.elf.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /home/huispec/STM32_CMake/008-ADC模数转换器/build/Project.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /home/huispec/STM32_CMake/008-ADC模数转换器/build/Project.bin"

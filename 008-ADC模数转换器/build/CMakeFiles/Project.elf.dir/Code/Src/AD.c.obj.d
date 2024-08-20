@@ -1,10 +1,8 @@
-CMakeFiles/Project.elf.dir/User/main.c.obj: \
- /home/huispec/STM32_CMake/008-ADC模数转换器/User/main.c \
- /home/huispec/STM32_CMake/008-ADC模数转换器/./Code/Inc/AD.h \
- /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
- /home/huispec/STM32_CMake/008-ADC模数转换器/./Code/Inc/OLED.h \
+CMakeFiles/Project.elf.dir/Code/Src/AD.c.obj: \
+ /home/huispec/STM32_CMake/008-ADC模数转换器/Code/Src/AD.c \
  /home/huispec/STM32_CMake/008-ADC模数转换器/./Start/Inc/stm32f10x.h \
  /home/huispec/STM32_CMake/008-ADC模数转换器/./Start/Inc/core_cm3.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
  /home/huispec/STM32_CMake/008-ADC模数转换器/./Start/Inc/system_stm32f10x.h \
  /home/huispec/STM32_CMake/008-ADC模数转换器/./Start/Inc/stm32f10x_conf.h \
  /home/huispec/STM32_CMake/008-ADC模数转换器/./Lib/Inc/stm32f10x_adc.h \

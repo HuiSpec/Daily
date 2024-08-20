@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Project.elf.dir/Code/Src/AD.c.obj"
+  "CMakeFiles/Project.elf.dir/Code/Src/AD.c.obj.d"
   "CMakeFiles/Project.elf.dir/Code/Src/Encoder.c.obj"
   "CMakeFiles/Project.elf.dir/Code/Src/Encoder.c.obj.d"
   "CMakeFiles/Project.elf.dir/Code/Src/I2COLED.c.obj"
