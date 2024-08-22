@@ -2,13 +2,14 @@
  * @Author: HuiSpec liwenhuiyx@yeah.net
  * @Date: 2024-08-20 18:00:54
  * @LastEditors: HuiSpec liwenhuiyx@yeah.net
- * @LastEditTime: 2024-08-22 16:12:17
- * @FilePath: /008-ADC模数转换器/Code/Src/AD.c
+ * @LastEditTime: 2024-08-22 16:22:36
+ * @FilePath: /009-ADC模数转换器多通道/Code/Src/AD.c
  *
  */
 #include "stm32f10x.h"
 #include "stm32f10x_adc.h"
 #include "stm32f10x_rcc.h"
+#include <stdint.h>
 
 /**
  * 函    数：AD初始化
@@ -27,13 +28,11 @@ void AD_Init(void)
     /*GPIO初始化*/
     GPIO_InitTypeDef GPIO_InitStructure;
     GPIO_InitStructure.GPIO_Mode  = GPIO_Mode_AIN;
-    GPIO_InitStructure.GPIO_Pin   = GPIO_Pin_0;
+    GPIO_InitStructure.GPIO_Pin   = GPIO_Pin_0 | GPIO_Pin_1 | GPIO_Pin_2;
     GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
     GPIO_Init(GPIOA, &GPIO_InitStructure); //将PA0引脚初始化为模拟输入
 
     /*规则组通道配置*/
-    ADC_RegularChannelConfig(ADC1, ADC_Channel_0, 1,
-                             ADC_SampleTime_55Cycles5); //规则组序列1的位置，配置为通道0
 
     /*ADC初始化*/
     ADC_InitTypeDef ADC_InitStructure;                 //定义结构体变量
@@ -41,9 +40,9 @@ void AD_Init(void)
     ADC_InitStructure.ADC_DataAlign = ADC_DataAlign_Right; //数据对齐，选择右对齐
     ADC_InitStructure.ADC_ExternalTrigConv =
         ADC_ExternalTrigConv_None; //外部触发，使用软件触发，不需要外部触发
-    // ADC_InitStructure.ADC_ContinuousConvMode = DISABLE;
-    // //连续转换，失能，每转换一次规则组序列后停止
-    ADC_InitStructure.ADC_ContinuousConvMode = ENABLE; //连续转换，
+    ADC_InitStructure.ADC_ContinuousConvMode = DISABLE;
+    //连续转换，失能，每转换一次规则组序列后停止
+    // ADC_InitStructure.ADC_ContinuousConvMode = ENABLE; //连续转换，
     ADC_InitStructure.ADC_ScanConvMode = DISABLE; //扫描模式，失能，只转换规则组的序列1这一个位置
     ADC_InitStructure.ADC_NbrOfChannel =
         1; //通道数，为1，仅在扫描模式下，才需要指定大于1的数，在非扫描模式下，只能是1
@@ -62,10 +61,13 @@ void AD_Init(void)
     ADC_SoftwareStartConvCmd(ADC1, ENABLE);
 }
 
-uint16_t AD_GetValue()
+uint16_t AD_GetValue(uint8_t ADC_Channel)
 {
-    // ADC_SoftwareStartConvCmd(ADC1, ENABLE);
-    // while (ADC_GetFlagStatus(ADC1, ADC_FLAG_EOC) == RESET)
-    //     ;
+    ADC_RegularChannelConfig(ADC1, ADC_Channel, 1,
+                             ADC_SampleTime_55Cycles5); //规则组序列1的位置，配置为通道0
+
+    ADC_SoftwareStartConvCmd(ADC1, ENABLE);
+    while (ADC_GetFlagStatus(ADC1, ADC_FLAG_EOC) == RESET)
+        ;
     return ADC_GetConversionValue(ADC1);
 }
